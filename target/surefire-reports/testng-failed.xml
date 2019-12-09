@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite1]" parallel="tests">
+  <listeners>
+    <listener class-name="com.cloud.customListener.TestNGListener"/>
+  </listeners>
+  <test thread-count="1" verbose="0" name="Normal(failed)" parallel="tests">
+    <parameter name="browserName" value="CHROME"/>
+    <classes>
+      <class name="testCases.LoginTestCases">
+        <methods>
+          <include name="loginWithInvalidCredentials"/>
+          <include name="initializeTestCase"/>
+          <include name="afterSuite"/>
+          <include name="initTestSuite"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- testCases.LoginTestCases -->
+    </classes>
+  </test> <!-- Normal(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

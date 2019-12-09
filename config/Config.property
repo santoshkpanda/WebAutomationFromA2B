@@ -1,0 +1,7 @@
+Browser=CHROME
+URL=https://www.fromatob.com/
+USERNAME=admin@fromatob.com
+PASSWORD=welcome1
+DEPARTURE=Berlin Hbf
+DESTINATION=Dessau Hbf
+NO_DAYS_TRIP_PLANNED=14

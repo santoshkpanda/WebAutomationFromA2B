@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 48.344 s <<< FAILURE! - in TestSuite
+loginWithInvalidCredentials(testCases.LoginTestCases)  Time elapsed: 4.57 s  <<< FAILURE!
+java.lang.AssertionError: Login failed expected [false] but found [true]
+	at testCases.LoginTestCases.loginWithInvalidCredentials(LoginTestCases.java:21)
+
