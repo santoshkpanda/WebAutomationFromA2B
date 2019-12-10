@@ -77,10 +77,14 @@ For running the tests on parallel on same machine follow below steps:
 * If test case is failed Automation Framework captures screenshot and save it in *Screenshots* folder
 * HTML report of execution is saved to *TestReport* folder with Date
 
+```
+
 ## Framework (Have used hybrid framework using maven & testNg + Page object model)
 
-```
+
 Folder Structre & Defination:
+
+```
 Binary : COntains executable of browser
 Config: Contains All configuration files related to the framework
 Logs: Will generate all the runtime logs in this folder
