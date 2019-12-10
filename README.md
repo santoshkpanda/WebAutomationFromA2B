@@ -85,14 +85,14 @@ For running the tests on parallel on same machine follow below steps:
 Folder Structre & Defination:
 
 ```
-Binary : COntains executable of browser
+Binary : Contains executable of browser
 Config: Contains All configuration files related to the framework
 Logs: Will generate all the runtime logs in this folder
 TestReports: All emailable html report are stored here (I have used extent report plugin, its a third party library)
 Screenshots* : incase of a failure all the screenshots will be save in this folder
 Testdata: Contains test case document for the web application
-
-SRC:main: packages:browser: all browser related initialization (for example: for chrome chrome.java for firefox firefox.java and for IE iBrowser.java)
+SRC:main: packages:browser: all browser related initialization 
+(for example: for chrome chrome.java for firefox firefox.java and for IE iBrowser.java)
 SRC:main: packages:core:actions.java: This is the wrapper on top of selenium inbuild methods
 SRC:main: packages:core: All constants are defined
 SRC:main: packages:core:log: all loggers are implemented
@@ -104,8 +104,8 @@ SRC:main: packages:managers:WebDriverManager: handles the driver instance
 SRC:main: packages:PageActions: Page object model is used :
 Dashboard: All the web elements to the page are defined
 DeutscheBahnPage: All the web elements to the page are defined
-LoginPage: All the web elements to the page are defined
-SRC:Test: Its the parent for all the test classes
+LoginPage: All the web elements to the page are defined.
+SRC:Test:Package:BaseTest: Its the parent for all the test classes.
 SRC:Test: LoginTestcase: Test cases related to login are defined.
 SRC:Test:TripsTesting: Test cases related to trips are defined.
 
